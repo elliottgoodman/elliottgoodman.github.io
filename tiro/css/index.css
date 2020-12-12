@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+} 
+
+html{
+    font-size: 22px;
+    font-family: Lora, Helvetica, sans-serif;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    border-radius: 10px;
+    color: white!important;
+    padding: 5px 10px;
+}
+
+.button_outline{
+    background-color: white;
+    border: 2px solid #1d76bb;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Lora, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+body{
+    display: inline;
+}
+
+/* Header */
+
+nav{
+    width: 100%;
+    height: 3.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.navigation .logo img{
+    height: 5rem;
+    width: auto;
+    margin-left: 0rem;
+    margin-top: .5rem;
+}
+
+.navigation .links a{
+    margin: 0 .5rem;
+    font-size: .75rem;
+    font-weight: bold;
+}
+
+#login{
+    background-color: #1d76bb;
+}
+
+/* Banner */
+
+.banner{
+    top: 3.5rem;
+    left: 0;
+    position: relative;
+    height: 630px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:cornflowerblue;
+}
+
+.banner_text{
+    position: relative;
+    top: 2rem;
+    left: 15px;
+    display: inline-block;
+}
+
+.headline h1,
+.headline h3{
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.button a{
+    color: white!important;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#teachers a{
+    margin: 30px 10px 10px 10px;
+    padding: 20px;
+    background-color: #921db9;
+    box-shadow: 3px 3px 1.5px #d791ee;
+    transition: all 750ms;
+}
+
+#teachers a:hover{
+    background-color: #681584;
+    font-size: 1.05rem;
+    box-shadow: 3px 3px 1.5px #921db9;
+}
+
+#leaders a{
+    margin: 10px;
+    padding: 20px;
+    background-color: #1db91d;
+    box-shadow: 3px 3px 1.5px #91ee91;
+    transition: all 750ms;
+}
+
+#leaders a:hover{
+    background-color: #158415;
+    font-size: 1.05rem;
+    box-shadow: 3px 3px 1.5px #1db91d;
+}
+
+#students a{
+    margin: 10px;
+    padding: 20px;
+    background-color: #b91d1d;
+    box-shadow: 3px 3px 1.5px #ee9191;
+    transition: all 750ms;
+}
+
+#students a:hover{
+    background-color: #841515;
+    font-size: 1.05rem;
+    box-shadow: 3px 3px 1.5px #b91d1d;
+}
+
+.container_video{
+    width: 50%;
+    height: 22rem;
+    overflow: hidden;
+    position: relative;
+    top: 2rem;
+}
+.video video{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media only screen and (max-width: 1450px){
+    .banner{
+        height: 1100px;
+    }
+}
+
+/* Slide 1 */
+
+.slide{
+    position: relative;
+    top: 2rem;
+    left: 15px;
+    background-image: url(https://www.youtube.com/watch?v=1YNrqbAcs6E);
+}
